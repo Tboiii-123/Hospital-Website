@@ -1,0 +1,239 @@
+/* Giving the li nav bars a transition of 3.1s and a font size  */
+
+#nav{
+    padding-left: 70px;
+    font-size: 22px;
+    transition: 2.1s;   
+}
+
+/* When overing it,the font size will  be increased by 12px form the original */
+
+#nav:hover{
+    text-decoration: overline solid blue ;
+    font-size: 34px;  
+}
+
+
+.body1{
+    background-image: url('Images/testii.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    font-size: 100px;
+       
+}
+
+.facility{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+/* The  first footer of the page */
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 340px;
+    display: flex;
+    padding-top: 40px;
+    
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.innerfooter{
+
+    display:flex;
+}
+
+
+.innerfootertext{
+    
+    width: 180px;
+    
+} 
+
+
+
+
+
+
+/* Making the List style none */
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 6px;
+}
+/* The anchor tag of in the list tag */
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* Ends here */
+/* The media query for the first footer */
+
+    
+
+@media(max-width:765px){
+        
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 602px;
+    display:block;
+    padding-top: 40px;
+    
+
+}
+
+
+.innerfooter{
+    margin-top: 13px;
+    display:flex;
+    
+    
+    
+}
+
+.innerfootertext2{
+
+    padding-left: 100px;
+}
+
+.innerfootertext3{
+    margin-top: 30px;
+}
+
+ 
+}
+
+@media (max-width:500px){
+
+    
+    .innerfooter{
+    
+        display:flex;
+        margin-left: -10%;    
+    }
+    
+    .innerfootertext2{
+    
+        padding-left:0px;
+    }
+    
+    }
+    
+
+
+/* Ends here */
+
+
+
+/* Styling for the second footer */
+
+.footer2{
+
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding-top: 20px;
+
+
+
+}
+
+aside{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* Media querey for the second footer */
+
+
+
+
+@media(max-width:765px){
+
+
+    .footer2{
+
+        margin-top: 2px;
+        
+        color: white;
+        background-color: black;
+        height: 500px;
+        padding-top: 20px;
+        
+    
+    }
+    aside{
+        display: block;
+        padding-left: 10%;
+        font-size: 17px;
+        margin-left:-10%;
+        
+    }
+
+    
+    
+         
+
+}
+
+/* Testimonial part */
+.body2{
+
+    text-align: center;
+    margin-top: 100px;
+}
+/* Text styling */
+.text{
+
+    background-image: url("Images/testiii.jpg");
+    color: white;
+    width: 50%;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: solid black;
+    font-style: italic;
+    line-height: 34px;
+}
+
+p{
+    font-size: 24px;
+}
+
+
+/* At media for the testimonials */
+@media(max-width:765px){
+    .text{
+
+        background-color:rgb(248, 248, 248);
+        color: var(--dim-grey);
+        width: 90%;
+        padding: 30px;
+        margin-top: 50px;
+        border-radius: 30px;
+        border: solid black;
+        font-style: italic;
+        line-height: 34px;
+    }
+
+}
+
+/* Ende here */

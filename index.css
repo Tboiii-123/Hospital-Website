@@ -1,0 +1,360 @@
+
+/* Giving the li nav bars a transition of 3.1s and a font size  */
+#li{
+    padding-left: 70px;
+    font-size: 22px;
+    transition: 2.1s;   
+}
+
+
+
+/* When overing it,the font size will  be increased by 12px form the original */
+
+#li:hover{
+    text-decoration: overline solid blue ;
+    font-size: 34px;  
+    
+}
+
+
+/* body1 section begins here */
+.body1{
+    background-color: #343434;
+    height: 500px;
+    color: white;
+       
+}
+
+.welcome{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Body1 section Ends here */
+
+
+
+
+
+
+/* Section2 body */
+
+.body2{
+    margin-top: 100px;
+}
+   #x{
+    background-color:#343434;
+    
+    font-size: 30px;
+    margin-top: 100px;
+    padding-top: 111170px;
+    
+    
+   }
+
+   @media(max-width:800px){
+    #A{
+        display: block;
+    }
+  }
+  #x{
+    padding: 20px;
+    
+  }
+  
+
+  /* Ends here */
+
+/* section3 styling*/
+
+
+.body3{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 140px;
+}
+
+
+p{
+    color: white;
+}
+
+#text{
+    
+    
+    font-size: 19px;
+    font-style: italic;
+    
+}
+
+#con{
+height: 800px;
+background-color:#343434;
+
+}
+
+
+@media(max-width:1199px){
+
+    .java{
+    
+   
+   width: 50%;
+    position: relative;
+    left: 30%;
+    
+    }
+
+    #con{
+        height: 800px;
+        background-color:#343434;
+        
+        }
+        
+}
+
+@media(max-width:794px){
+    .java{
+    
+   
+        width: 100%;
+         position: relative;
+         left: 0%; 
+         }
+     
+           
+}
+
+
+/* Section2 styling Ends here */
+
+
+
+
+
+
+
+
+
+/* Styling for Our best doctors section */  
+.body3{
+    margin-top: 150px;
+}
+
+
+.innerbody3{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: -12%;
+}
+
+
+.image{
+    height: 180px;
+    width: 100%;
+    border-radius: 30%;
+    
+}
+
+
+
+.innerInner{
+    padding-left: 100px;
+
+}
+
+.name{
+    color: cornflowerblue;
+    font-size: 35px;
+}
+.text{
+
+
+    font-size: 26px;
+}
+
+/* At media query for the section */
+@media(max-width:768px){
+    
+.innerbody3{
+    display: block;
+    justify-content: center;
+}
+.image{
+    height: 300px;
+    width: 90%;
+    border-radius: 0%;
+    
+}
+
+
+}
+
+/* THe code ends here */
+
+
+
+
+
+/* The  first footer of the page */
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 340px;
+    display: flex;
+    padding-top: 40px;
+    
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.innerfooter{
+
+    display:flex;
+}
+
+
+.innerfootertext{
+    
+    width: 180px;
+    
+} 
+
+
+
+
+
+
+/* Making the List style none */
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 6px;
+}
+/* The anchor tag of in the list tag */
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* Ends here */
+
+
+/* The media query for the first footer */
+
+@media(max-width:765px){
+        
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 602px;
+    display:block;
+    padding-top: 40px;
+    
+
+}
+
+
+.innerfooter{
+    margin-top: 13px;
+    display:flex;
+    
+    
+    
+}
+
+.innerfootertext2{
+
+    padding-left: 100px;
+}
+
+.innerfootertext3{
+    margin-top: 30px;
+}
+
+ 
+}
+
+@media (max-width:500px){
+
+    
+    .innerfooter{
+    
+        display:flex;
+        margin-left: -10%;    
+    }
+    
+    .innerfootertext2{
+    
+        padding-left:0px;
+    }
+    
+    }
+    
+
+
+/* Ends here */
+
+
+
+/* Styling for the second footer */
+
+.footer2{
+
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding-top: 20px;
+
+
+
+}
+
+/* The aside part of the page */
+aside{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* Media querey for the second footer */
+
+
+
+
+@media(max-width:765px){
+
+
+    .footer2{
+
+        margin-top: 2px;
+        
+        color: white;
+        background-color: black;
+        height: 500px;
+        padding-top: 20px;
+        
+    
+    }
+    aside{
+        display: block;
+        padding-left: 10%;
+        font-size: 17px;
+        margin-left:-10%;
+        
+    }
+
+    
+    
+         
+
+}

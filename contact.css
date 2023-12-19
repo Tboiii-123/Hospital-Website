@@ -1,0 +1,434 @@
+
+
+
+/* Giving the li nav bars a transition of 3.1s and a font size  */
+
+#li{
+    padding-left: 70px;
+    font-size: 22px;
+    transition: 2.1s;   
+}
+
+
+
+/* When overing it,the font size will  be increased by 12px form the original */
+
+#li:hover{
+    text-decoration: overline solid blue ;
+    font-size: 34px;  
+}
+
+
+.body1{
+    background-image: url("Images/me.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color: black;
+       
+}
+
+
+
+.contact{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* body2 contact design */
+
+.body2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+#Address{
+    margin-top: 50px;
+}
+#number{
+    text-decoration: overline 8px;
+    font-size: 40px
+}
+/* Button styling for calling */
+#call{
+background-color: #343434;
+color: white;
+padding: 24px;
+border-radius: 37px;
+transition: 2s;
+}
+
+#call:hover{
+    background-color: blue;
+    transform: scale(1.3);
+}    
+/* Ends here */
+
+/* Ends here */
+
+/* At media query at wisth 765px for the contact design */
+@media(max-width:765px){
+
+    .body2{
+        margin-top: 100px;
+        display: block;
+    }
+    
+
+}
+
+
+
+
+/* Feed bakc section */
+
+
+
+
+.popup{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1.25);
+    width: 40%;
+    padding: 10px 70px;
+
+    background-color: #343434;
+    box-shadow: 5px 5px 10px 10px black;
+    border-radius: 10px ;
+    color: white;
+    transition: 1.2s;                       
+}
+
+.popup.active{
+    top: 110%;
+    opacity: 1;
+    
+    transform: translate(-50%,-50%) scale(1);
+}
+
+#text{
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+/* Submit button */
+#sub{
+padding: 12px 50px;
+transition: 2s;
+
+}
+
+
+/* Submit button when hover */
+#sub:hover{
+
+border-radius: 30px;
+    transform: scale(1.2);
+}
+
+
+/* Feedback button */
+#me{
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    float: right;
+    background-color: blue;
+    color: white;
+    transition: 2s;
+    margin-right: 1%;
+    height: 40px;
+    transform: rotateZ(90deg);
+}
+
+/* Feedback button when over */
+#me:hover{
+    transform: scale(1.5);
+
+}
+
+#icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 45px;
+    font-size: 30px;
+    background-color: red;
+    color: #eee;
+    text-align:center ;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+    
+}
+
+
+
+@media(max-width:1065px){
+    
+.popup{
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(1.25);
+    width: 80%;
+    
+    padding: 10px 14px;
+    background-color: #343434;
+    box-shadow: 5px 5px 10px 10px black;
+    border-radius: 10px ;
+    color: white;
+    transition: 1.2s;                       
+}
+
+.popup.active{
+    top: 110%;
+    opacity: 1;
+    
+    transform: translate(-50%,-50%) scale(1);
+}
+
+
+#text{
+    
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* Feedback button */
+#me{
+    
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    float: right;
+    background-color: blue;
+    color: white;
+    transition: 2s;
+    margin-right: 1%;
+    height: 40px;
+    transform: rotateZ(90deg);
+}
+
+/* Feedback button when over */
+#me:hover{
+    transform: scale(1.5);
+
+}
+
+#icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 45px;
+    font-size: 30px;
+    background-color: red;
+    color: #eee;
+    text-align:center ;
+    cursor: pointer;
+    border-radius: 15px;
+
+
+    
+}
+
+
+
+    
+}
+
+/* Ends here */
+
+/* Styling for the mao begins here */
+
+
+
+.map{
+    margin-top: 100px;
+}
+#map{
+margin-top: 50px;
+    
+    margin-left: 6%;
+}
+
+/* Ends here */
+
+/* The  first footer of the page */
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 340px;
+    display: flex;
+    padding-top: 40px;
+    
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.innerfooter{
+
+    display:flex;
+}
+
+
+.innerfootertext{
+    
+    width: 180px;
+    
+} 
+
+
+/* Making the List style none */
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 6px;
+}
+/* The anchor tag of in the list tag */
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* Ends here */
+
+
+
+
+
+
+/* The media query for the first footer */
+
+@media(max-width:765px){
+        
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 602px;
+    display:block;
+    padding-top: 40px;
+    
+
+}
+
+
+.innerfooter{
+    margin-top: 13px;
+    display:flex;
+    
+    
+    
+}
+
+.innerfootertext2{
+
+    padding-left: 100px;
+}
+
+.innerfootertext3{
+    margin-top: 30px;
+}
+
+ 
+}
+
+@media (max-width:500px){
+
+    
+    .innerfooter{
+    
+        display:flex;
+        margin-left: -10%;    
+    }
+    
+    .innerfootertext2{
+    
+        padding-left:0px;
+    }
+    
+    }
+    
+
+
+/* Ends here */
+
+
+
+/* Styling for the second footer */
+
+.footer2{
+
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding-top: 20px;
+
+
+
+}
+
+/* The aside part of the page */
+aside{
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* Media querey for the second footer */
+
+
+
+
+@media(max-width:765px){
+
+
+    .footer2{
+
+        margin-top: 2px;
+        
+        color: white;
+        background-color: black;
+        height: 500px;
+        padding-top: 20px;
+        
+    
+    }
+    aside{
+        display: block;
+        padding-left: 10%;
+        font-size: 17px;
+        margin-left:-10%;
+        
+    }
+
+    
+    
+         
+
+}

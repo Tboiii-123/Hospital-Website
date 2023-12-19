@@ -1,0 +1,601 @@
+
+/* Giving the li nav bars a transition of 3.1s and a font size  */
+
+#nav{
+    padding-left: 70px;
+    font-size: 22px;
+    transition: 2.1s;   
+}
+
+
+
+
+/* When overing it,the font size will  be increased by 12px form the original */
+
+#nav:hover{
+    text-decoration: overline solid blue ;
+    font-size: 34px;  
+}
+
+
+/* Body1 section begins hwer */
+.body1{
+    background-image: url('Images/services1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-size: 40px;
+    color: black;
+       
+}
+
+.services{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 160px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Ends here */
+
+
+/* body 2 section begins */
+.body2{
+    margin-top: 100px;
+    
+}
+
+.aside1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: orange;
+    padding: 20px;
+}
+.aside2{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: red;
+    padding: 20px;
+}
+.aside3{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color:green;
+    padding: 20px;
+    
+}
+.aside4{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: black;
+    padding: 20px;
+
+}
+.aside5{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color:blueviolet;
+    padding: 20px;
+}
+.aside6{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: brown;
+    padding: 20px;
+}
+.aside7{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: chocolate;
+    padding: 20px;
+}
+.aside8{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: sienna;
+    padding: 20px;
+}
+.aside9{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: lightcoral;
+    padding: 20px;
+}
+.aside10{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color:firebrick;
+    padding: 20px;
+}
+.aside11{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color: hotpink;
+    padding: 20px;
+}
+.aside12{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+
+    background-color:tomato;
+    padding: 20px;
+}
+.innertext{
+    font-size: 25px;
+    font-style:italic;
+    padding-left:188px;
+    padding-top: 130px;
+    color:white;
+}
+
+
+/* Imgaes */
+
+
+.img1{
+    width: 120%; 
+    height:540px;
+}
+
+.img2{
+    width: 125%;
+     height:500px;
+}
+
+.img3{
+    width: 125%; 
+    height:500px;
+}
+
+.img4{
+    width: 125%;
+     height:500px;
+}
+
+.img5{
+    width: 120%; 
+    height:540px;
+    
+}
+
+.img6{
+    width: 127%;
+     height:500px;
+}
+
+.img7{
+    width: 130%;
+     height:500px;
+}
+
+.img8{
+    width: 130%;
+     height:500px;
+}
+
+.img9{
+    width: 100%; 
+    height:500px;
+}
+
+.img10{
+    width: 128%;
+     height:500px;
+}
+
+.img11{
+    width: 130%; 
+    height:500px;
+}
+
+.img12{
+    width: 128%; 
+    height:500px;
+}
+
+
+/* images Ends here */
+
+/* Ends here */
+
+
+/* At media query for body 2 section  */
+
+
+@media(max-width:910px){
+    
+
+
+    img{
+        width: 90%;
+    }
+.aside1{
+    margin-top: 80px;
+    display: block;
+margin-left: 1px;
+    
+    background-color: orange;
+    padding: 20px;
+}
+.aside2{
+    margin-top: 80px;
+    margin-left: 1px;
+    display: block;
+    
+    background-color: red;
+    padding: 20px;
+}
+.aside3{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color:green;
+    padding: 20px;
+    
+}
+.aside4{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: black;
+    padding: 20px;
+
+}
+.aside5{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color:blueviolet;
+    padding: 20px;
+}
+.aside6{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: brown;
+    padding: 20px;
+}
+.aside7{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: chocolate;
+    padding: 20px;
+}
+.aside8{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: sienna;
+    padding: 20px;
+}
+.aside9{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: lightcoral;
+    padding: 20px;
+}
+.aside10{
+    margin-top: 80px;
+    display: block;
+    
+    margin-left: 1px;
+    background-color:firebrick;
+    padding: 20px;
+}
+.aside11{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color: hotpink;
+    padding: 20px;
+    
+}
+.aside12{
+    margin-top: 80px;
+    display: block;
+    margin-left: 1px;
+    
+    background-color:tomato;
+    padding: 20px;
+}
+
+
+
+.innertext{
+    font-size: 25px;
+    font-style:italic;
+    padding-left:10px;
+    margin-left: 20px;
+    padding-top: 100px;
+    color:white;
+}
+
+.body2{
+    margin-left: 20px;
+}
+
+
+
+
+.img1{
+    width: 100%;
+     
+    height:540px;
+}
+
+.img2{
+    width: 100%;
+    
+     height:500px;
+}
+
+.img3{
+    width: 100%;
+    
+    height:500px;
+}
+
+.img4{
+    width: 100%;
+    
+     height:500px;
+}
+
+.img5{
+    width: 100%;
+    
+    height:540px;
+    
+}
+
+.img6{
+    width: 100%;
+        height:500px;
+}
+
+.img7{
+    width: 100%;
+    
+     height:500px;
+}
+
+.img8{
+    width: 100%;
+    
+     height:500px;
+}
+
+.img9{
+    width: 100%;
+    
+    height:500px;
+}
+
+.img10{
+    width: 100%;
+    
+     height:500px;
+}
+
+.img11{
+    width: 100%;
+    
+    height:500px;
+}
+
+.img12{
+    width: 100%;
+    
+    height:500px;
+}
+
+
+}
+
+
+
+
+
+
+/* Ends here */
+
+
+
+
+/* The  first footer of the page */
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 340px;
+    display: flex;
+    padding-top: 40px;
+    
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.innerfooter{
+
+    display:flex;
+}
+
+
+.innerfootertext{
+    
+    width: 180px;
+    
+} 
+
+
+
+
+
+
+/* Making the List style none */
+
+ul{
+    list-style-type: none;
+}
+li{
+    padding-top: 6px;
+}
+/* The anchor tag of in the list tag */
+a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+/* Ends here */
+
+
+/* The media query for the first footer */
+
+@media(max-width:765px){
+        
+.footer1{
+
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    height: 602px;
+    display:block;
+    padding-top: 40px;
+    
+
+}
+
+
+.innerfooter{
+    margin-top: 13px;
+    display:flex;
+    
+    
+    
+}
+
+.innerfootertext2{
+
+    padding-left: 100px;
+}
+
+.innerfootertext3{
+    margin-top: 30px;
+}
+
+ 
+}
+
+@media (max-width:500px){
+
+    
+    .innerfooter{
+    
+        display:flex;
+        margin-left: -10%;    
+    }
+    
+    .innerfootertext2{
+    
+        padding-left:0px;
+    }
+    
+    }
+    
+
+
+/* Ends here */
+
+
+
+/* Styling for the second footer */
+
+.footer2{
+
+    margin-top: 2px;
+    color: white;
+    background-color: black;
+    height: 200px;
+    padding-top: 20px;
+
+
+
+}
+
+/* The aside part of the page */
+aside{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 50px;
+}
+/* Media querey for the second footer */
+
+
+
+
+@media(max-width:765px){
+
+
+    .footer2{
+
+        margin-top: 2px;
+        
+        color: white;
+        background-color: black;
+        height: 500px;
+        padding-top: 20px;
+        
+    
+    }
+    aside{
+        display: block;
+        padding-left: 10%;
+        font-size: 17px;
+        margin-left:-10%;
+        
+    }
+
+    
+    
+         
+
+}
